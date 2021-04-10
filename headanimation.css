@@ -1,0 +1,187 @@
+#head1 {
+    position:absolute;
+    top: 22%;
+    left: 17%;
+    width: 0;
+    height: 65px;
+    animation-name: head1-moving;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-name: head1-moving;
+    -moz-animation-name: head1-moving;
+    -o-animation-name: head1-moving;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+}
+
+@keyframes head1-moving {
+    from {
+        width: 0;
+    }
+    to {
+        width: 270px;
+        background-color: white;
+    }
+}
+
+#head2 {
+    position:absolute;
+    top: 34%;
+    left: 17%;
+    width: 0;
+    height: 65px;
+    animation-name: head2-moving;
+    animation-duration: 1.3s;
+    animation-delay: 1.1s;
+    animation-fill-mode: both;
+    -webkit-animation-name: head2-moving;
+    -moz-animation-name: head2-moving;
+    -o-animation-name: head2-moving;
+    -webkit-animation-duration: 1.3s;
+    -moz-animation-duration: 1.3s;
+    -o-animation-duration: 1.3s;
+    -webkit-animation-delay: 1.1s;
+    -moz-animation-delay: 1.1s;
+    -o-animation-delay: 1.1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+}
+
+@keyframes head2-moving {
+    form{
+        width: 0;
+    }
+    to {
+        width: 405px;
+        background-color: white;
+    }
+}
+
+#text3 {
+    font-size: 1.5em;
+    position:absolute;
+    top: 350px;
+    left: 17%;
+    color:white;
+    animation-name: text3-moving;
+    animation-duration: 1s;
+    animation-delay: 2.7s;
+    animation-fill-mode: both;
+    -webkit-animation-name: text3-moving;
+    -moz-animation-name: text3-moving;
+    -o-animation-name: text3-moving;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-delay: 2.7s;
+    -moz-animation-delay: 2.7s;
+    -o-animation-delay: 2.7s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+}
+
+@keyframes text3-moving {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#text3 i {
+    color: white;
+}
+
+@-webkit-keyframes head1-moving {
+    from {
+        width: 0;
+    }
+    to {
+        width: 270px;
+        background-color: white;
+    }
+}
+
+@-moz-keyframes head1-moving {
+    from {
+        width: 0;
+    }
+    to {
+        width: 270px;
+        background-color: white;
+    }
+}
+
+@-o-keyframes head1-moving {
+    from {
+        width: 0;
+    }
+    to {
+        width: 270px;
+        background-color: white;
+    }
+}
+
+@-webkit-keyframes head2-moving {
+    form{
+        width: 0;
+    }
+    to {
+        width: 405px;
+        background-color: white;
+    }
+}
+
+@-moz-keyframes head2-moving {
+    form{
+        width: 0;
+    }
+    to {
+        width: 405px;
+        background-color: white;
+    }
+}
+
+@-o-keyframes head2-moving {
+    form{
+        width: 0;
+    }
+    to {
+        width: 405px;
+        background-color: white;
+    }
+}
+
+@-webkit-keyframes text3-moving {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes text3-moving {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes text3-moving {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
