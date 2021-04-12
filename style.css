@@ -270,7 +270,7 @@ nav ul li a:active {
     }
 }
 
-@media all and (max-width: 952px) {
+@media all and (min-width: 769px) and (max-width: 952px) {
     #who div p {
         padding-top: 20px;
     }
