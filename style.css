@@ -283,6 +283,11 @@ nav ul li a:active {
     #section2 {
         padding-bottom: 15px;
     }
+    
+    #section2, #section3 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 
 }
 
