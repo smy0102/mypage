@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.contents {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+section {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+p {
+    font-family: 'Sunflower', sans-serif;
+}
+
+.scrolldown {
+    transition: transform 0.7s, opacity 1s;
+  }
+
+/* header */
+
+header  {
+    background-color: rgb(36, 36, 36);
+    padding-top: 220px;
+    padding-bottom: 250px;
+    color: white;
+    height: 85%;
+}
+
+#text1, #text2, #text3 {
+    font-family: 'Noto Serif KR', serif;
+}
+
+#text1, #text2 {
+    color:rgb(36, 36, 36);
+    font-size: 48px;
+    position: absolute;
+    left: 17%;
+}
+
+#text1 {
+    top: 22%;
+    z-index: 10;
+}
+
+#text2 {
+    top: 34%;
+}
+
+.contact {
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    padding-top: 15px;
+    padding-right: 35px;
+}
+
+.contact p, i{
+    color: rgb(207, 206, 206);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#top {
+    height: 15px;
+    background-color: rgb(36, 36, 36);
+}
+
+/* navigation */
+
+nav {
+    height: 110px;
+    background-color: wheat;
+    position: fixed;
+    top: 300px;
+    right: 35px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px 1px rgb(248, 206, 129);
+    font-family: 'Sunflower', sans-serif;
+    font-weight: lighter;
+}
+
+nav ul {
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 13px;
+    margin-right: 13px; 
+}
+
+nav ul li {
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+
+nav ul li a:visited, nav ul li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:active, nav ul li a:hover {
+    color: red;
+}
+
+nav ul li a:active {
+    font-weight: bold;
+}
+
+/* Who am I */
+
+#who {
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#mypic {
+    width: 200px;
+    height: 200px;
+    border: 1px black solid; 
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#who div p {
+    line-height: 2.0;
+}
+
+.btn {
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Goal */
+
+#section2 {
+    background-color: #ccc;
+}
+
+.title2 {
+    padding-bottom: 35px;
+}
+
+#goal {
+    background-color: #ccc;;
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#goal p {
+    margin-top: 10px;
+}
+
+.goalpic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+} 
+
+/* What I love */
+
+#section3 {
+    background-color: rgb(53, 53, 53);;
+}
+
+#love {
+    background-color: rgb(53, 53, 53);
+    color: whitesmoke;
+}
+
+.lovelist {
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#love img {
+    width: 250px;
+    height: 250px;
+}
+
+.lovelist div {
+    margin: 10px 20px;
+    border: 1px whitesmoke solid;
+    padding: 5px;
+}
+
+.lovelist div p {
+    text-align: center;
+}
+
+@media all and (min-width: 376px) and (max-width: 768px) {
+    #who div p {
+        margin-top: 20px;
+        width: 250px;
+    }
+    
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 40px;
+        border-radius: 0;
+        box-shadow: none;
+        right: 0;
+        z-index: 100;
+    }
+    
+    nav ul {
+        display: flex;
+        display: -ms-flexbox;
+        justify-content: space-around;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #top {
+        height: 40px;
+    }
+
+    .contents {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #section2 {
+        padding-bottom: 15px;
+    }
+
+    #text1, #text2, #head #text3, 
+    #head #head1, #head #head2 {
+        left: 5%;
+    }
+
+    #head #head1, #head #text1 {
+        top: 20%;
+    }
+
+    #head #head2, #head #text2 {
+        top: 30%;
+    }
+
+    #head #text3 {
+        top: 430px;
+    }
+
+    #section2, #section3 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 952px) {
+    #who div p {
+        padding-top: 20px;
+    }
+
+    .contents {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #section2 {
+        padding-bottom: 15px;
+    }
+
+    #section2, #section3 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+}
+
+@media all and (max-width: 375px) {
+    
+    #who div p {
+        margin-top: 20px;
+        width: 250px;
+    }
+
+    .contents {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    /* navigation */
+    nav { 
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 40px;
+        border-radius: 0;
+        box-shadow: none;
+        right: 0;
+        z-index: 100;
+    }
+    
+    nav ul {
+        display: flex;
+        display: -ms-flexbox;
+        justify-content: space-around;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #top {
+        height: 40px;
+    }
+
+    #section2 {
+        padding-bottom: 15px;
+    }
+    
+    /* header */
+    #text1, #text2, #head #text3, 
+    #head #head1, #head #head2 {
+        left: 5%;
+    }
+
+    #head #text1, #head #text2 {
+        font-size: 2em;
+        background-color: white;
+    }
+
+    #head #text1 {
+        top: 200px;
+    }
+
+    #head #text2 {
+        top: 280px;
+    }
+
+    #head #text3 {
+        font-size: 1.3em;
+        top: 430px;
+    }
+
+    #head #head1, #head #head2, #head #text3 {
+        animation: none;
+    }
+}
